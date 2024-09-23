@@ -1,0 +1,65 @@
+.main {
+  width: 360px;
+  background-color: #0b2434;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 20px;
+}
+
+.container {
+  width: 320px;
+  height: 320px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 0 34.56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.diceWrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr 1fr;
+  grid-row-gap: 17.92px;
+  grid-column-gap: 18.56px;
+}
+
+.btnRoll {
+  background-color: #5035ff;
+  color: #fff;
+  border-radius: 3.81px;
+  font-family: "Karla", sans-serif;
+  font-size: 16.38px;
+  font-weight: 600;
+  padding: 6.4px 21.12px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btnRoll:hover {
+  background-color: #2e0efb;
+}
+
+.title {
+  font-family: "Karla", sans-serif;
+  font-size: 25.6px;
+  font-weight: 600;
+}
+
+.desc {
+  font-size: 13.11px;
+  font-weight: 400;
+}
+
+.confetti {
+  width: 320px;
+  height: 320px;
+  position: absolute;
+  left: 50% !important;
+  top: 50% !important;
+  transform: translate(-50%, -50%);
+}

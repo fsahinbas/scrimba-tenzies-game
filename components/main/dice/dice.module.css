@@ -1,0 +1,11 @@
+.dice {
+  width: 35.84px;
+  aspect-ratio: 1;
+  color: #2b283a;
+  font-size: 20.59px;
+  font-weight: 600;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 3.81px;
+  line-height: 35.84px;
+  cursor: pointer;
+}
