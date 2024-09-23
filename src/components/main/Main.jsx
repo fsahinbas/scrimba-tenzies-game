@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./main.module.css";
-import Dice from "./dice/Dice";
+import Dice from "../dice/Dice";
 import { nanoid } from "nanoid";
 import Confetti from "react-confetti";
 
